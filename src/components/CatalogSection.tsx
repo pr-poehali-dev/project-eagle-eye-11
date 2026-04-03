@@ -7,6 +7,12 @@ const categories: { icon: string; label: string; desc: string }[] = [
   { icon: "Smartphone", label: "Телефоны", desc: "iPhone, Samsung, Xiaomi и прочие смартфоны" },
   { icon: "Gamepad2", label: "Игровые приставки", desc: "PlayStation, Xbox, Nintendo Switch" },
   { icon: "Tablet", label: "Планшеты", desc: "iPad, Galaxy Tab, любые Android-планшеты" },
+  { icon: "Tv", label: "Телевизоры", desc: "Smart TV, любые диагонали и марки" },
+  { icon: "Camera", label: "Фотоаппараты", desc: "Зеркальные, беззеркальные, объективы" },
+  { icon: "Watch", label: "Умные часы", desc: "Apple Watch, Samsung Galaxy Watch и другие" },
+  { icon: "Headphones", label: "Наушники и аудио", desc: "AirPods, Sony, Bose, колонки, усилители" },
+  { icon: "Printer", label: "Оргтехника", desc: "Принтеры, МФУ, сканеры, проекторы" },
+  { icon: "Wifi", label: "Сетевое оборудование", desc: "Роутеры, коммутаторы, точки доступа" },
 ];
 
 export function CatalogSection() {
