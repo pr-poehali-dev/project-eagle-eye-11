@@ -12,16 +12,20 @@ export function ContactSection() {
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
-            href="https://t.me/"
-            className="font-mono text-sm uppercase tracking-wide border border-border px-8 py-4 hover:bg-white/5 transition-colors duration-200 text-foreground/80 hover:text-foreground w-full sm:w-auto"
+            href="https://t.me/gogarud"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-mono text-sm uppercase tracking-wide border border-primary px-8 py-4 text-primary hover:bg-primary/10 transition-colors duration-200 w-full sm:w-auto"
           >
             Написать в Telegram
           </a>
           <a
-            href="https://wa.me/"
-            className="font-mono text-sm uppercase tracking-wide border border-primary px-8 py-4 text-primary hover:bg-primary/10 transition-colors duration-200 w-full sm:w-auto"
+            href="https://www.avito.ru/vladimir/predlozheniya_uslug/vykup_pk_i_komplektuyuschih_7952039168"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-mono text-sm uppercase tracking-wide border border-border px-8 py-4 hover:bg-white/5 transition-colors duration-200 text-foreground/80 hover:text-foreground w-full sm:w-auto"
           >
-            Написать в WhatsApp
+            Открыть на Авито
           </a>
         </div>
 
