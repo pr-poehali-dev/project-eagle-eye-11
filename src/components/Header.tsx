@@ -24,12 +24,30 @@ export const Header = () => {
             </a>
           ))}
         </nav>
-        <a
-          className="uppercase max-lg:hidden transition-colors ease-out duration-150 font-mono text-primary hover:text-primary/80"
-          href="#contact"
-        >
-          Оценить
-        </a>
+        <div className="flex max-lg:hidden items-center gap-x-6">
+          <a
+            href="tel:+79208999100"
+            className="font-mono text-sm text-foreground/60 hover:text-foreground transition-colors ease-out duration-150"
+          >
+            +7 920 899-91-00
+          </a>
+          <a
+            href="https://t.me/gogarud"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="uppercase transition-colors ease-out duration-150 font-mono text-primary hover:text-primary/80"
+          >
+            Telegram
+          </a>
+          <a
+            href="https://www.avito.ru/vladimir/predlozheniya_uslug/vykup_pk_i_komplektuyuschih_7952039168"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="uppercase transition-colors ease-out duration-150 font-mono text-foreground/60 hover:text-foreground"
+          >
+            Авито
+          </a>
+        </div>
         <MobileMenu />
       </header>
     </div>

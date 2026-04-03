@@ -67,13 +67,31 @@ export const MobileMenu = ({ className }: MobileMenuProps) => {
               </a>
             ))}
 
-            <div className="mt-6">
+            <div className="mt-6 flex flex-col space-y-4">
               <a
-                href="#contact"
+                href="tel:+79208999100"
+                onClick={handleLinkClick}
+                className="inline-block text-xl font-mono text-foreground/60 transition-colors ease-out duration-150 hover:text-foreground py-2"
+              >
+                +7 920 899-91-00
+              </a>
+              <a
+                href="https://t.me/gogarud"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={handleLinkClick}
                 className="inline-block text-xl font-mono uppercase text-primary transition-colors ease-out duration-150 hover:text-primary/80 py-2"
               >
-                Оценить устройство
+                Telegram
+              </a>
+              <a
+                href="https://www.avito.ru/vladimir/predlozheniya_uslug/vykup_pk_i_komplektuyuschih_7952039168"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={handleLinkClick}
+                className="inline-block text-xl font-mono uppercase text-foreground/60 transition-colors ease-out duration-150 hover:text-foreground py-2"
+              >
+                Авито
               </a>
             </div>
           </nav>
